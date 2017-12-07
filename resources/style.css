@@ -50,9 +50,8 @@ main {
 /* Mission */
 .mission {
   background-image: url(./images/img-mission-background.jpg);
-  opacity: 0.9;
-  height: 700px;
   width: 1200px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,13 +78,38 @@ main {
 }
 .image-content {
   width: 325px;
-  height: 260px;
+  height: 265px;
 }
 .image-content img {
   width: 300px;
   height: 200px;
-  padding: 5px;
+  margin: 10px;
 }
 .image-content span {
   padding: 5px;
+}
+
+/* Locations */
+.locations {
+  background-image: url(./images/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.location-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location {
+  width: 300px;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
 }
