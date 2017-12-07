@@ -65,6 +65,7 @@ main {
 .featured {
   width: 1000px;
   height: auto;
+  padding: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,10 +95,11 @@ main {
   background-image: url(./images/img-locations-background.jpg);
   width: 1200px;
   height: 500px;
-  display: flex;
+  padding-top: 60px;
+  /*display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column;*/
 }
 .location-cards {
   display: flex;
@@ -111,5 +113,21 @@ main {
   background-color: black;
   opacity: 1;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+}
+
+/* Contact */
+.contact {
+  height: 200px;
+  width: 100%;
+}
+
+/* Footer */
+.copyright {
+  text-align: left;
+  padding: 0 20px;
+  position: relative;
+  top: 50px;
 }
